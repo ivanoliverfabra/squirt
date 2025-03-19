@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Squirts</title>
-    <script type="module" crossorigin src="/script.js" defer></script>
-    <link rel="stylesheet" crossorigin href="/styles.css">
+    <script type="module" crossorigin src="/script.js"></script>
+    <link rel="stylesheet" crossorigin href="/styles.css" />
   </head>
   <body
     class="min-h-screen flex flex-col items-center justify-center p-4 md:p-8 bg-gradient-to-b from-background to-background/95"
@@ -14,19 +14,17 @@
     <main id="main" class="w-full max-w-4xl mx-auto space-y-12">
       <div class="text-center space-y-4">
         <h1
-          class="text-5xl md:text-6xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80 animate-in fade-in slide-in-from-bottom-4 duration-1000"
+          class="text-5xl md:text-6xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80"
         >
           Squirts
         </h1>
-        <p
-          class="text-xl text-muted-foreground animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200"
-        >
+        <p class="text-xl text-muted-foreground">
           Fast browser shortcuts for your favorite sites
         </p>
       </div>
 
       <div
-        class="bg-card/50 backdrop-blur-sm rounded-xl p-8 border border-border/50 shadow-lg space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300"
+        class="bg-card/50 backdrop-blur-sm rounded-xl p-8 border border-border/50 shadow-lg space-y-4"
       >
         <div class="space-y-3">
           <label
@@ -60,11 +58,11 @@
               type="text"
               value="http://localhost:5173?q=%s"
               readonly
-              class="w-full bg-input/50 backdrop-blur-sm text-foreground rounded-lg px-4 py-3 border border-border/50 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all duration-200"
+              class="w-full bg-input/50 backdrop-blur-sm text-foreground rounded-lg px-4 py-3 border border-border/50 focus:outline-none focus:ring-2 focus:ring-primary/50"
             />
             <button
               onclick="copyToClipboard()"
-              class="absolute right-2 top-1/2 -translate-y-1/2 text-sm bg-primary text-primary-foreground px-4 py-1.5 rounded-md hover:bg-primary/90 transition-all duration-200 transform hover:scale-105"
+              class="absolute right-2 top-1/2 -translate-y-1/2 text-sm bg-primary text-primary-foreground px-4 py-1.5 rounded-md hover:bg-primary/90"
             >
               Copy
             </button>
